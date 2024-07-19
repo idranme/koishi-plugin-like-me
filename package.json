@@ -1,0 +1,32 @@
+{
+  "name": "koishi-plugin-like-me",
+  "description": "Like me",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idranme/koishi-plugin-like-me.git"
+  },
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin",
+    "like"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.17.7"
+  },
+  "koishi": {
+    "browser": true,
+    "description": {
+      "en": "Like me",
+      "zh": "赞我"
+    }
+  }
+}
