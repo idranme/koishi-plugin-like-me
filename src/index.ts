@@ -7,7 +7,7 @@ export interface Config {
 }
 
 export const Config: Schema<Config> = Schema.object({
-  times: Schema.number().description('点赞次数').default(10)
+  times: Schema.natural().description('点赞次数').default(10)
 })
 
 export function apply(ctx: Context, cfg: Config) {
